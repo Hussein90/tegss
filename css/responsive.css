@@ -21,7 +21,7 @@
 		    height: auto;
     }
     h1.sentence {
-    		font-size: x-large;
+    		font-size: inherit;
 	}
 	.website {
             margin-left: 166px;
