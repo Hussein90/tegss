@@ -22,7 +22,7 @@
    <script src="https://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
 <link href="https://use.fontawesome.com/releases/v5.0.0/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	  <link rel="stylesheet" href="css/style.css">
 	  <link rel="stylesheet" href="css/responsive.css">
 
@@ -51,16 +51,24 @@
 
 <section class="wrapper">
   
-  <h1 class="sentence">We design 
-    <div class="slidingVertical">
-      <span>Amazing</span>
-      <span>Beautiful</span>
-      <span>Responsive</span>
-      <span>Customized</span>
+  
+  <div class="container">
+      <div class="row title">
+        <div class="col-md-8 col-md-offset-2 cover-heading">
+          <div class="sentence">
+            <p>We design</p><span>
+            <div class="rotate"><p><span>Amazing</span></p>
+            <p><span>Beautiful</span></p>
+            <p><span>Responsive</span></p>
+             <p><span>Customized</span></p>
+          </div>
+          </span>
+          <p>Websites</p>
+        </div>
+          
     </div>
-    <span class=" reccommendable-text reccommendable-word reccommendable-word--1">Websites</span>
     
-  </h1>
+  </div>
   <image class="template" src="Pictures/Template/template 1.jpg">
  
   
@@ -76,5 +84,47 @@ TEGSS All Rights Reserved 2018<i class="fa fa-copyright" aria-hidden="true">
  </p>
 </div>
 </footer>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700">
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.slim.min.js"></script>
+  <script async src="https://cdn.rawgit.com/mntn-dev/t.js/master/t.min.js"></script>
+  <script type="text/javascript">
+    function textRotate(classSelector, animationTime, ease, intervalLength, color) {
+      var spanHeight = $(classSelector + " > p").height();
+      $(classSelector).parent().css("height", spanHeight + "px")
+      $(".sentence > p").css("display", "inline");
+      $("head").append("<style>.sentence p {display: inline-block;}.sentence span {overflow: hidden;display: inline-block;position: relative;-webkit-transform: translateY(20%);-ms-transform: translateY(20%);transform: translateY(20%);}.sentence span div {display: inline-block;}.sentence span div p {display: block;background-color: transparent;top: 0px;}.sentence span div p span {top: 4px;height: auto;display: inline;}</style>")
+      if (color != "") {
+        $(classSelector + " > p").css("color", color);
+      }
+      var iniElmWidth = $(classSelector + " > p:nth-child(1) > span").width();
+      $(classSelector).css("width", iniElmWidth);
+      $(classSelector + " > p").each(function() {
+        var newValue = $(this).html().split(" ").join("&nbsp;");
+        $(this).html(newValue);
+        console.log(newValue);
+      });
+      var numOfWords = $(classSelector + " > p").length;
+      var count = 1;
+      $(classSelector).css("will-change", "transform");
+      $(classSelector).css("transform", "translateY(0)");
+      $(classSelector).css("transition", "transform " + animationTime + "s " + ease + ", width " + animationTime + "s " + ease);
+      setInterval(function() {
+        if (count < numOfWords) {
+          count++;
+          console.log(count);
+          var elmWidth = $(classSelector + " > p:nth-child(" + count + ") > span").width();
+          $(classSelector).css("width", elmWidth);
+          var move = (count - 1) * spanHeight;
+          $(classSelector).css("transform", "translateY(-" + move + "px)");
+        } else if (count >= numOfWords) {
+          count = 1;
+          var elmWidth = $(classSelector + " > p:nth-child(1) > span").width();
+          $(classSelector).css("width", elmWidth);
+          $(classSelector).css("transform", "translateY(0px)");
+        }
+      }, intervalLength);
+    }
+    textRotate(".rotate", 1, "ease", 5000, "red");
+  </script>
 </body>
 </html>
