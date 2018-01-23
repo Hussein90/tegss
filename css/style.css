@@ -1,5 +1,57 @@
+/*start style Free Button*/
+button#personal-redirect {
+    margin-bottom: 20px;
+    margin-left: 258px;
+    margin-top: 20px;
+}
+/*end style Free Button*/
+/*Start Pricing Style*/
+.card-header{
+  background-color: dimgray;
+
+}
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/*end Pricing Style*/
+
+
+/*start Our Service*/
+
+/*
+ * Extra utilities
+ */
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.flex-equal > * {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+.overflow-hidden { overflow: hidden; }
+
+/*end our Service*/
 body{
-	    line-height: 1.5em;
 background-color: #333;
 color: white;
 }
@@ -23,6 +75,7 @@ h3.logo-name {
 	margin-right:60px; 
 }
 /
+
 /*
 /*rotating words*/
 .slidingVertical{
@@ -93,6 +146,7 @@ h3.logo-name {
     padding: 40px 40px;
     position: relative;
     width: 70%;
+    margin-top: -2px;
     
 }
 

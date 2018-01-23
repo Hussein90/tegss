@@ -1,4 +1,7 @@
 @media(max-width: 521px){
+button#personal-redirect {
+margin: 0;
+}
 	.reccommendable-text {
 		    display: inline-flex;
 	}
@@ -17,12 +20,11 @@
 		    height: auto;
 	}
 	.wrapper {
-		    
 		    width: 100%;
-
+		   
     }
     h1.sentence {
-    		font-size: inherit;
+    		font-size: x-large;
 	}
 	.website {
             margin-left: 166px;
@@ -43,12 +45,11 @@
 	h2.title {
     	font-size: 1.5rem;
 	}
-	.row.title {
+    .row.title {
     font-size: medium;
     text-align: center;
     margin: 0;
     }
-
 }
 @media(min-width: 522px) and (max-width: 767px){
 	.reccommendable-text {
