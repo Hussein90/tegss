@@ -1,6 +1,9 @@
 @media(max-width: 521px){
+	
 button#personal-redirect {
-margin: 0;
+    font-size: large;
+    margin: 0;
+    width: 100%;
 }
 	.reccommendable-text {
 		    display: inline-flex;
