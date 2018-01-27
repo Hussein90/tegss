@@ -48,8 +48,17 @@ button#personal-redirect {
     flex: 1;
   }
 }
+img.img-fluid.social {
+    width: 65%;
+}
 .overflow-hidden { overflow: hidden; }
-
+.bg-light.box-shadow.mx-auto {
+    height: 151px!important;
+    background-color: #333333 !important;
+}
+.bg-dark {
+  background-color: #333333 !important;
+}
 /*end our Service*/
 body{
 background-color: #333;
@@ -160,9 +169,6 @@ h2{
 	    text-align: center;
     margin-top: 59px;
 
-}
-img.template{
-width:100%;
 }
 img.template-img {
     width: 100%;

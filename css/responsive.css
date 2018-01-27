@@ -1,6 +1,8 @@
 @media(max-width: 521px){
 button#personal-redirect {
-margin: 0;
+	    width: 100%;
+	    font-size: x-small;
+		margin: 0;
 }
 	.reccommendable-text {
 		    display: inline-flex;
@@ -46,7 +48,7 @@ margin: 0;
     	font-size: 1.5rem;
 	}
     .row.title {
-    font-size: medium;
+    font-size: x-small;
     text-align: center;
     margin: 0;
     }
@@ -98,6 +100,11 @@ margin: 0;
 }
 
 @media(min-width: 768px) and (max-width: 991px){
+	button#personal-redirect{
+		font-size: x-large;
+		width: 100%;
+		margin: 0;
+	}
 .logo{
 		    margin-left: 18px;
 	}
@@ -137,6 +144,14 @@ margin: 0;
 
 
 @media(min-width: 992px) and (max-width: 1280px){
+	img.img-fluid.social {
+    width: 57%;
+}
+	button#personal-redirect{
+		font-size: x-large;
+		width: 100%;
+		margin: 0;
+	}
 	.logo{
 		    margin-left: 18px;
 	}
