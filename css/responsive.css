@@ -1,4 +1,7 @@
 @media(max-width: 521px){
+	img.img-fluid.responsive {
+	 margin-left: -24px; 
+}
 button#personal-redirect {
 	    width: 100%;
 	    font-size: x-small;
@@ -186,11 +189,20 @@ button#personal-redirect {
 	h2.title {
     	font-size: 1.5rem;
 	}
+	img.img-fluid.responsive {
+    min-width: 121%!important;
+}
 }
 
 @media(min-width: 1500px){
 img.img-fluid.social {
     width: 50%;
 	}
+img.img-fluid.support {
+    width: 63%;
+	}
+	img.img-fluid.responsive {
+    min-width: 121%!important;
+}
 }
 

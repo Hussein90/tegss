@@ -241,6 +241,9 @@ p.head-para {
 p.template-des {
     margin-left: 23px;
 }
+img.img-fluid.support {
+    width: 80%;
+}
 .Technology-logo {
     margin: 24px;
 }
@@ -275,4 +278,8 @@ h4.title-package {
     font-size: xx-large;
     text-align: center;
     margin: 0;
+}
+img.img-fluid.responsive {
+    margin-left: -24px; 
+    min-width: 156% !important;
 }
