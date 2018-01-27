@@ -145,21 +145,21 @@ button#personal-redirect {
 
 @media(min-width: 992px) and (max-width: 1280px){
 	img.img-fluid.social {
-    width: 57%;
-}
+    	width: 57%;
+	}
 	button#personal-redirect{
 		font-size: x-large;
 		width: 100%;
 		margin: 0;
 	}
 	.logo{
-		    margin-left: 18px;
+		margin-left: 18px;
 	}
 	.nav{
-		    margin: 0px;
+		margin: 0px;
 	}
 	img.template {
-		    width: 100%;
+		width: 100%;
 		    height: auto;
 	}
 	.wrapper {
@@ -188,9 +188,9 @@ button#personal-redirect {
 	}
 }
 
-@media(min-width: 1600px){
+@media(min-width: 1500px){
 img.img-fluid.social {
     width: 50%;
-}
+	}
 }
 
