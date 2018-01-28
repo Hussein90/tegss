@@ -286,9 +286,9 @@ img.img-fluid.responsive {
 
 /*start sytle form*/
 h4.modal-title {
-    color: #333333;
+    color: #333333!important;
 }
 label#exampleinput {
-    color: #333333;
+    color: #333333!important;
 }
 /*end style form*/
