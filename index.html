@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 
-	<meta charset="utf-8">
-	<title>TEGS</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE; chrome=1">
+  <meta charset="utf-8">
+  <title>TEGS</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE; chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="57x57" href="Pictures/Logo/header logo/header-icon(57x57).Logo/header logo">
     <link rel="apple-touch-icon" sizes="60x60" href="Pictures/Logo/header logo/header-icon(60x60).jpg">
@@ -19,25 +19,24 @@
     <link rel="icon" type="image/jpg" sizes="32x32" href="Pictures/Logo/header logo/header-icon(32x32).jpg">
     <link rel="icon" type="image/jpg" sizes="96x96" href="Pictures/Logo/header logo/header-icon(96x96).jpg">
     <link rel="icon" type="image/jpg" sizes="16x16" href="Pictures/Logo/header logo/header-icon(16x16).Logo/header logo">
-<link href="https://use.fontawesome.com/releases/v5.0.0/css/all.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.0/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-	  <link rel="stylesheet" href="css/style.css">
-	  <link rel="stylesheet" href="css/responsive.css">
-
-	 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-	<div class="header">
-	<div>
-		   <a href="index.html">
-		   	<image class="logo" src="Pictures/Logo/logo2.jpg">
-		   	<h3 class="logo-name">Solutions</h3>
-		   </a>
+  <div class="header">
+  <div>
+       <a href="index.html">
+        <image class="logo" src="Pictures/Logo/logo2.jpg">
+        <h3 class="logo-name">Solutions</h3>
+       </a>
  
-		
-	</div>
-	<ul class="nav justify-content-end">
+    
+  </div>
+  <ul class="nav justify-content-end">
   <li class="nav-item">
     <a class="nav-link active" href="Price tiers.html">Prices</a>
   </li>
@@ -129,7 +128,7 @@
               <li>Email support</li>
               <li>Help center access</li>
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary" data-toggle="modal" data-target="#myModal">Sign up for free</button>
           </div>
         </div>
         <div class="card mb-4 box-shadow">
@@ -144,7 +143,7 @@
               <li>Priority email support</li>
               <li>Help center access</li>
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+            <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal" data-target="#myModal">Get started</button>
           </div>
         </div>
         <div class="card mb-4 box-shadow">
@@ -159,7 +158,7 @@
               <li>Priority email support</li>
               <li>Help center access</li>
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+            <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal" data-target="#myModal">Get started</button>
           </div>
         </div>
         <div class="card mb-4 box-shadow">
@@ -174,7 +173,7 @@
               <li>Phone and email support</li>
               <li>Help center access</li>
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+            <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal" data-target="#myModal">Contact us</button>
           </div>
         </div>
       </div>
@@ -231,5 +230,52 @@ TEGSS All Rights Reserved 2018<i class="fa fa-copyright" aria-hidden="true"></i>
     }
     textRotate(".rotate", 1, "ease", 5000, "red");
   </script>
+
+ <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Contact Us Form</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+           <!-- start form body -->
+            <form>
+              <div class="form-group">
+                <label id="exampleinput">Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                    </div>
+              <div class="form-group">
+                <label id="exampleinput">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+              <div class="form-group">
+                <label id="exampleinput">Telephone</label>
+                <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Telephone">
+                    </div>
+              <div class="form-group">
+                <label id="exampleinput">Subject</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+          </form>
+          <!-- end form body -->
+        </div>  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Contact Us Direct
+          </button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Send
+          </button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>

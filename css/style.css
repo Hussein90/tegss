@@ -283,3 +283,12 @@ img.img-fluid.responsive {
     margin-left: -24px; 
     min-width: 156% !important;
 }
+
+/*start sytle form*/
+h4.modal-title {
+    color: #333333;
+}
+label#exampleinput {
+    color: #333333;
+}
+/*end style form*/
