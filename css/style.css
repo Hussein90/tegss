@@ -245,10 +245,7 @@ img.img-fluid.support {
     width: 80%;
 }
 .Technology-logo {
-    margin: 24px;
-}
-img.angular {
-    margin-top: 37px;
+    margin: 17px;
 }
 .fa-copyright {
     background-color: black;
@@ -286,9 +283,11 @@ img.img-fluid.responsive {
 
 /*start sytle form*/
 h4.modal-title {
-    color: #333333!important;
+    color: #333333;
 }
 label#exampleinput {
-    color: #333333!important;
+    color: #333333;
 }
 /*end style form*/
+
+
