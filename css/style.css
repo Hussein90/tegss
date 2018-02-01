@@ -10,10 +10,7 @@ body{
 nav.navbar.navbar-expand-md.navbar-dark.bg-dark.mb-4 {
     background-color: black!important;
 }
-.mr-auto, .mx-auto {
-    margin-left: auto!important;
-    margin-right: 0!important;
-}
+
 
 /* end head style */
 
@@ -107,7 +104,7 @@ button#personal-redirect {
   }
 }
 img.img-fluid.social {
-    width: 65%;
+    width: 61%;
 }
 .overflow-hidden { overflow: hidden; }
 .bg-light.box-shadow.mx-auto {
@@ -300,7 +297,7 @@ p.template-des {
     margin-left: 23px;
 }
 img.img-fluid.support {
-    width: 80%;
+    width: 76%;
 }
 .Technology-logo {
     margin: 23px;
@@ -336,7 +333,7 @@ h4.title-package {
 }
 img.img-fluid.responsive {
     margin-left: -24px; 
-    min-width: 156% !important;
+    min-width: 147% !important;
 }
 
 /*start sytle form*/
