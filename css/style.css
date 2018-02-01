@@ -1,3 +1,61 @@
+/* Show it's not fixed to the top */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body{
+    background-color: #333;
+}
+/* start head style */
+nav.navbar.navbar-expand-md.navbar-dark.bg-dark.mb-4 {
+    background-color: black!important;
+}
+.mr-auto, .mx-auto {
+    margin-left: auto!important;
+    margin-right: 0!important;
+}
+
+/* end head style */
+
+/* start footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: black;
+  color: white;
+}
+p{
+  margin: 0;
+}
+
+i.fa.fa-copyright {
+    margin-left: 3px;
+}
+/* end footer styles
+-------------------------------------------------- */
+
+/* i only need this from your css code */
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, sans-serif;
+  line-height: 1.5em;
+}
+/*the end of the css code i need it from you */
+
 /*start style Free Button*/
 button#personal-redirect {
     margin-bottom: 20px;
@@ -66,7 +124,7 @@ color: white;
 }
 /* logo style*/
 .logo{
-	    margin-left: 18%;
+      margin-left: 18%;
     float: left;
     height: 48px;
     width: 49px;
@@ -81,49 +139,49 @@ h3.logo-name {
 }
 /*navbar style*/
 .nav{
-	margin-right:60px; 
+  margin-right:60px; 
 }
 /
 
 /*
 /*rotating words*/
 .slidingVertical{
-	display: inline;
-	text-indent: -1px;
+  display: inline;
+  text-indent: -1px;
 }
 .slidingVertical span{
-	animation: topToBottom 9.5s linear infinite 0s;
-	-ms-animation: topToBottom 9.5s linear infinite 0s;
-	-webkit-animation: topToBottom 9.5s linear infinite 0s;
-	color: red;
-	opacity: 0;
-	overflow: hidden;
-	position: absolute;
+  animation: topToBottom 9.5s linear infinite 0s;
+  -ms-animation: topToBottom 9.5s linear infinite 0s;
+  -webkit-animation: topToBottom 9.5s linear infinite 0s;
+  color: red;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
 }
 .slidingVertical span:nth-child(2){
-	animation-delay: 2.5s;
-	-ms-animation-delay: 2.5s;
-	-webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+  -ms-animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
 }
 .slidingVertical span:nth-child(3){
-	animation-delay: 5s;
-	-ms-animation-delay: 5s;
-	-webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  -ms-animation-delay: 5s;
+  -webkit-animation-delay: 5s;
 }
 .slidingVertical span:nth-child(4){
-	animation-delay: 7.5s;
-	-ms-animation-delay: 7.5s;
-	-webkit-animation-delay: 7.5s;
+  animation-delay: 7.5s;
+  -ms-animation-delay: 7.5s;
+  -webkit-animation-delay: 7.5s;
 }
 ///
 @-webkit-keyframes topToBottom{
-	0% { opacity: 0; }
-	5% { opacity: 0; -webkit-transform: translateY(-50px); }
-	10% { opacity: 1; -webkit-transform: translateY(0px); }
-	25% { opacity: 1; -webkit-transform: translateY(0px); }
-	30% { opacity: 0; -webkit-transform: translateY(50px); }
-	80% { opacity: 0; }
-	100% { opacity: 0; }
+  0% { opacity: 0; }
+  5% { opacity: 0; -webkit-transform: translateY(-50px); }
+  10% { opacity: 1; -webkit-transform: translateY(0px); }
+  25% { opacity: 1; -webkit-transform: translateY(0px); }
+  30% { opacity: 0; -webkit-transform: translateY(50px); }
+  80% { opacity: 0; }
+  100% { opacity: 0; }
 }
 ////
 
@@ -132,8 +190,8 @@ h3.logo-name {
   flex-flow: column wrap;
 }
 .reccommendable-word {
-	padding-left: 170px;
-	padding-right: 170px;
+  padding-left: 170px;
+  padding-right: 170px;
   animation-name: move-word;
   animation-duration: 6s;
   animation-iteration-count: infinite;
@@ -162,11 +220,11 @@ h3.logo-name {
 
 
 h1{
-	text-align: center;
+  text-align: center;
 }
 
 h2{
-	    text-align: center;
+      text-align: center;
     margin-top: 59px;
 
 }
@@ -207,7 +265,7 @@ padding: .75rem;
 
 
 .header{
-	height: 48px;
+  height: 48px;
     background-color: black;
 }
 
@@ -259,8 +317,8 @@ img.img-fluid.support {
 /*end of style footer*/
 
 .table{
-	width: 63%;
-	margin-left: 248px;
+  width: 63%;
+  margin-left: 248px;
 }
 
 h4.title-package {
@@ -287,6 +345,12 @@ h4.modal-title {
 }
 label#exampleinput {
     color: #333333;
+}
+.modal-footer{
+  display: block;
+}
+button.btn.btn-secondary.right-button {
+    float: right;
 }
 /*end style form*/
 

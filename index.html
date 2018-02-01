@@ -20,8 +20,8 @@
     <link rel="icon" type="image/jpg" sizes="96x96" href="Pictures/Logo/header logo/header-icon(96x96).jpg">
     <link rel="icon" type="image/jpg" sizes="16x16" href="Pictures/Logo/header logo/header-icon(16x16).Logo/header logo">
     <link href="https://use.fontawesome.com/releases/v5.0.0/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -52,6 +52,10 @@
   <div class="container">
       <div class="row title">
         <div class="col-md-8 col-md-offset-2 cover-heading">
+    <div id="cover" class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 cover-heading">
           <div class="sentence">
             <p>We design</p><span>
             <div class="rotate"><p><span>Amazing</span></p>
@@ -61,11 +65,14 @@
           </div>
           </span>
           <p>Websites</p>
-        </div>
-          
+        </div>     
     </div>
-    
+  </div>     
+    </div>
   </div>
+</div>
+</div>
+</div>
   <a href="Personal.html"><button id="personal-redirect" type="button" class="btn btn-secondary btn-lg">Create Your Website for Free</button></a>
 
   <image class="template" src="Pictures/Template/template 1.jpg"> 
@@ -188,48 +195,7 @@
 TEGSS All Rights Reserved 2018<i class="fa fa-copyright" aria-hidden="true"></i></p>
 </div>
 </footer>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700">
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.slim.min.js"></script>
-  <script async src="https://cdn.rawgit.com/mntn-dev/t.js/master/t.min.js"></script>
-  <script type="text/javascript">
-    function textRotate(classSelector, animationTime, ease, intervalLength, color) {
-      var spanHeight = $(classSelector + " > p").height();
-      $(classSelector).parent().css("height", spanHeight + "px")
-      $(".sentence > p").css("display", "inline");
-      $("head").append("<style>.sentence p {display: inline-block;}.sentence span {overflow: hidden;display: inline-block;position: relative;-webkit-transform: translateY(20%);-ms-transform: translateY(20%);transform: translateY(20%);}.sentence span div {display: inline-block;}.sentence span div p {display: block;background-color: transparent;top: 0px;}.sentence span div p span {top: 4px;height: auto;display: inline;}</style>")
-      if (color != "") {
-        $(classSelector + " > p").css("color", color);
-      }
-      var iniElmWidth = $(classSelector + " > p:nth-child(1) > span").width();
-      $(classSelector).css("width", iniElmWidth);
-      $(classSelector + " > p").each(function() {
-        var newValue = $(this).html().split(" ").join("&nbsp;");
-        $(this).html(newValue);
-        console.log(newValue);
-      });
-      var numOfWords = $(classSelector + " > p").length;
-      var count = 1;
-      $(classSelector).css("will-change", "transform");
-      $(classSelector).css("transform", "translateY(0)");
-      $(classSelector).css("transition", "transform " + animationTime + "s " + ease + ", width " + animationTime + "s " + ease);
-      setInterval(function() {
-        if (count < numOfWords) {
-          count++;
-          console.log(count);
-          var elmWidth = $(classSelector + " > p:nth-child(" + count + ") > span").width();
-          $(classSelector).css("width", elmWidth);
-          var move = (count - 1) * spanHeight;
-          $(classSelector).css("transform", "translateY(-" + move + "px)");
-        } else if (count >= numOfWords) {
-          count = 1;
-          var elmWidth = $(classSelector + " > p:nth-child(1) > span").width();
-          $(classSelector).css("width", elmWidth);
-          $(classSelector).css("transform", "translateY(0px)");
-        }
-      }, intervalLength);
-    }
-    textRotate(".rotate", 1, "ease", 5000, "red");
-  </script>
+
 
  <!-- The Modal -->
   <div class="modal fade" id="myModal">
@@ -277,6 +243,54 @@ TEGSS All Rights Reserved 2018<i class="fa fa-copyright" aria-hidden="true"></i>
       </div>
     </div>
   </div>
+
+ <<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700">
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.slim.min.js"></script>
+  <script async src="https://cdn.rawgit.com/mntn-dev/t.js/master/t.min.js"></script>
+  <script type="text/javascript">
+    function textRotate(classSelector, animationTime, ease, intervalLength, color) {
+      var spanHeight = $(classSelector + " > p").height();
+      $(classSelector).parent().css("height", spanHeight + "px")
+      $(".sentence > p").css("display", "inline");
+      $("head").append("<style>.sentence p {display: inline-block;}.sentence span {overflow: hidden;display: inline-block;position: relative;-webkit-transform: translateY(20%);-ms-transform: translateY(20%);transform: translateY(20%);}.sentence span div {display: inline-block;}.sentence span div p {display: block;background-color: transparent;top: 0px;}.sentence span div p span {top: 4px;height: auto;display: inline;}</style>")
+      if (color != "") {
+        $(classSelector + " > p").css("color", color);
+      }
+      var iniElmWidth = $(classSelector + " > p:nth-child(1) > span").width();
+      $(classSelector).css("width", iniElmWidth);
+      $(classSelector + " > p").each(function() {
+        var newValue = $(this).html().split(" ").join("&nbsp;");
+        $(this).html(newValue);
+        console.log(newValue);
+      });
+      var numOfWords = $(classSelector + " > p").length;
+      var count = 1;
+      $(classSelector).css("will-change", "transform");
+      $(classSelector).css("transform", "translateY(0)");
+      $(classSelector).css("transition", "transform " + animationTime + "s " + ease + ", width " + animationTime + "s " + ease);
+      setInterval(function() {
+        if (count < numOfWords) {
+          count++;
+          console.log(count);
+          var elmWidth = $(classSelector + " > p:nth-child(" + count + ") > span").width();
+          $(classSelector).css("width", elmWidth);
+          var move = (count - 1) * spanHeight;
+          $(classSelector).css("transform", "translateY(-" + move + "px)");
+        } else if (count >= numOfWords) {
+          count = 1;
+          var elmWidth = $(classSelector + " > p:nth-child(1) > span").width();
+          $(classSelector).css("width", elmWidth);
+          $(classSelector).css("transform", "translateY(0px)");
+        }
+      }, intervalLength);
+    }
+    textRotate(".rotate", 1, "ease", 5000, "red");
+  </script>
+
 
 </body>
 </html>
