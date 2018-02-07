@@ -332,8 +332,9 @@ h4.title-package {
     margin: 0;
 }
 img.img-fluid.responsive {
-    margin-left: -24px; 
-    min-width: 147% !important;
+        margin-left: -97px;
+    min-width: 195% !important;
+    float: left;
 }
 
 /*start sytle form*/
@@ -351,4 +352,7 @@ button.btn.btn-secondary.right-button {
 }
 /*end style form*/
 
+span.red-word{
+  height: 50px!important;
+}
 

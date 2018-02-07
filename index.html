@@ -57,8 +57,10 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2 cover-heading">
           <div class="sentence">
-            <p>We design</p><span>
-            <div class="rotate"><p><span>Amazing</span></p>
+            <p>We design</p>
+            <span class="red-word">
+            <div class="rotate">
+            <p><span>Amazing</span></p>
             <p><span>Beautiful</span></p>
             <p><span>Responsive</span></p>
              <p><span>Customized</span></p>
@@ -73,7 +75,7 @@
 </div>
 </div>
 </div>
-  <a href="Personal.html"><button id="personal-redirect" type="button" class="btn btn-secondary btn-lg">Create Your Website for Free</button></a>
+  
 
   <image class="template" src="Pictures/Template/template 1.jpg"> 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
@@ -82,7 +84,7 @@
           <h2 class="display-5">Responsive</h2>
         </div>
         <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-          <image class="img-fluid responsive" src="Pictures\Logo\Technology-logo\responsive.png">
+          <image class="img-fluid responsive" src="Pictures\Logo\Technology-logo\responsive.png"  alt="Responsive">
         </div>
       </div>
       <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
@@ -91,7 +93,7 @@
           
         </div>
         <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-      <img src="Pictures\Logo\Technology-logo\rsz_1social-media-icons_1.png" alt="a baby crib"  class="img-fluid social">
+      <img src="Pictures\Logo\Technology-logo\rsz_1social-media-icons_1.png" alt="Social Networks"  class="img-fluid social">
         </div>
       </div>
     </div>
@@ -103,7 +105,7 @@
            
         </div>
         <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-          <img src="Pictures\Logo\Technology-logo\https (3).v3.png" alt="a baby crib"  class="img-fluid secure">
+          <img src="Pictures\Logo\Technology-logo\https (3).v3.png" alt="Secure"  class="img-fluid secure">
         </div>
       </div>
      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
@@ -112,7 +114,7 @@
           
         </div>
         <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-          <img src="Pictures\Logo\Technology-logo\rsz_3rsz_1tech-support-icon-300x241-300x241.v3.png" alt="a baby crib"  class="img-fluid support">
+          <img src="Pictures\Logo\Technology-logo\rsz_3rsz_1tech-support-icon-300x241-300x241.v3.png" alt="24/7"  class="img-fluid support">
         </div>
       </div>
     </div>
@@ -234,7 +236,7 @@ TEGSS All Rights Reserved 2018<i class="fa fa-copyright" aria-hidden="true"></i>
         <!-- Modal footer -->
         <div class="modal-footer">
           <a href="mailto:contact@tegss.org">
-          <button type="button" class="btn btn-secondary left-button" data-dismiss="modal">Contact Us Direct
+          <button type="button" class="btn btn-secondary left-button">Contact Us Direct
           </button></a>
           <button type="button" class="btn btn-secondary right-button" data-dismiss="modal">Send
           </button>
@@ -256,7 +258,7 @@ TEGSS All Rights Reserved 2018<i class="fa fa-copyright" aria-hidden="true"></i>
       var spanHeight = $(classSelector + " > p").height();
       $(classSelector).parent().css("height", spanHeight + "px")
       $(".sentence > p").css("display", "inline");
-      $("head").append("<style>.sentence p {display: inline-block;}.sentence span {overflow: hidden;display: inline-block;position: relative;-webkit-transform: translateY(20%);-ms-transform: translateY(20%);transform: translateY(20%);}.sentence span div {display: inline-block;}.sentence span div p {display: block;background-color: transparent;top: 0px;}.sentence span div p span {top: 4px;height: auto;display: inline;}</style>")
+      $("head").append("<style>.sentence p {display: inline-block!important;}.sentence span {overflow: hidden;display: inline-block;position: relative;-webkit-transform: translateY(20%);-ms-transform: translateY(20%);transform: translateY(20%);}.sentence span div {display: inline-block;}.sentence span div p {display: block;background-color: transparent;top: 0px;}.sentence span div p span {top: 4px;height: auto;display: inline;}</style>")
       if (color != "") {
         $(classSelector + " > p").css("color", color);
       }
