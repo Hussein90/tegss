@@ -1,4 +1,7 @@
 @media(max-width: 521px){
+	span.red-word{
+  height: 13px!important;
+}
 	.Technology-logo {
     margin: 18px;
   /*margin: 10px*/

@@ -238,7 +238,7 @@ TEGSS All Rights Reserved 2018<i class="fa fa-copyright" aria-hidden="true"></i>
           <a href="mailto:contact@tegss.org">
           <button type="button" class="btn btn-secondary left-button">Contact Us Direct
           </button></a>
-          <button type="button" class="btn btn-secondary right-button">Send
+          <button type="button" class="btn btn-secondary right-button" data-dismiss="modal">Send
           </button>
         </div>
         
@@ -258,7 +258,7 @@ TEGSS All Rights Reserved 2018<i class="fa fa-copyright" aria-hidden="true"></i>
       var spanHeight = $(classSelector + " > p").height();
       $(classSelector).parent().css("height", spanHeight + "px")
       $(".sentence > p").css("display", "inline");
-      $("head").append("<style>.sentence p {display: inline-block!important;}.sentence span {overflow: hidden;display: inline-block;position: relative;-webkit-transform: translateY(20%);-ms-transform: translateY(20%);transform: translateY(20%);}.sentence span div {display: inline-block;}.sentence span div p {display: block;background-color: transparent;top: 0px;}.sentence span div p span {top: 4px;height: auto;display: inline;}</style>")
+      $("head").append("<style>.sentence p {display: inline-block!important;}.sentence span {overflow: hidden;display: inline-block;position: relative;-webkit-transform: translateY(20%);-ms-transform: translateY(20%);transform: translateY(20%);}.sentence span div {display: inline-block;}.sentence span div p {display: block;background-color: transparent;top: 0px;}.sentence span div p span {height: auto;display: inline;}</style>")
       if (color != "") {
         $(classSelector + " > p").css("color", color);
       }
