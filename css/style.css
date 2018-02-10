@@ -203,8 +203,13 @@ h3.logo-name {
   to {transform: translateX(0px);}
 }
 
+img.image-template1 {
+    border-style: solid;
+    border-color: red;
+}
 /*Wrapper*/
 .wrapper{
+    text-align: center;
     font-family: 'Raleway', sans-serif;
     margin: 100px auto;
     padding: 40px 40px;
@@ -327,6 +332,7 @@ h4.title-package {
     max-width: 100%;
 }
 .row.title {
+    margin-bottom: 10px!important;
     font-size: xx-large;
     text-align: center;
     margin: 0;
