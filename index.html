@@ -212,34 +212,24 @@ TEGSS All Rights Reserved 2018<i class="fa fa-copyright" aria-hidden="true"></i>
         <!-- Modal body -->
         <div class="modal-body">
            <!-- start form body -->
-            <form>
+            <form method="POST" action="https://formspree.io/contact@tegss.org">
               <div class="form-group">
-                <label id="exampleinput">Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                <input name ="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
                     </div>
               <div class="form-group">
-                <label id="exampleinput">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
                     </div>
               <div class="form-group">
-                <label id="exampleinput">Telephone</label>
-                <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Telephone">
-                    </div>
-              <div class="form-group">
-                <label id="exampleinput">Subject</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
               </div>
+              <a href="mailto:contact@tegss.org">
+              <button type="button" class="btn btn-secondary left-button">Contact Us Direct
+              </button></a>
+              <button type="submit" class="btn btn-secondary right-button">Send
+              </button>
           </form>
           <!-- end form body -->
         </div>  
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <a href="mailto:contact@tegss.org">
-          <button type="button" class="btn btn-secondary left-button">Contact Us Direct
-          </button></a>
-          <button type="button" class="btn btn-secondary right-button" data-dismiss="modal">Send
-          </button>
-        </div>
         
       </div>
     </div>
