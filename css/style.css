@@ -204,6 +204,7 @@ h3.logo-name {
 }
 
 img.image-template1 {
+    width: 100%;
     border-style: solid;
     border-color: red;
 }
