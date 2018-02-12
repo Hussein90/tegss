@@ -363,3 +363,10 @@ span.red-word{
   height: 45px!important;
 }
 
+.social {
+    background-color: black;
+}
+i.fab.fa-facebook.fa-lg {
+    color: blue;
+    background-color: white;
+}
