@@ -150,6 +150,7 @@ h3.logo-name {
   animation: topToBottom 9.5s linear infinite 0s;
   -ms-animation: topToBottom 9.5s linear infinite 0s;
   -webkit-animation: topToBottom 9.5s linear infinite 0s;
+  color: red;
   opacity: 0;
   overflow: hidden;
   position: absolute;
