@@ -207,7 +207,7 @@ h3.logo-name {
 img.image-template1 {
     width: 100%;
     border-style: solid;
-    border-color: red;
+    border-color: dimgrey;
 }
 /*Wrapper*/
 .wrapper{
@@ -286,7 +286,9 @@ p.head-para {
 
 /*start of style footer*/
 .copyright{
-  line-height: 2.5;
+    margin-left: 20px!important;
+    float: left;
+    line-height: 2.5;
     margin: 0;
 }
 .footer{
@@ -365,9 +367,11 @@ span.red-word{
 }
 
 .social {
+    line-height: 2.5;
     background-color: black;
+    float: right;
+    margin-right: 30px;
 }
-i.fab.fa-facebook.fa-lg {
-    color: blue;
-    background-color: white;
+i.fab.fa-facebook-f.fa-lg {
+    color: #333333;
 }
