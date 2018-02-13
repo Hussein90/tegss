@@ -7,7 +7,8 @@
   /*margin: 10px*/
 }
 	img.img-fluid.responsive {
-	 margin-left: -97px; 
+	     margin-left: -43px;
+    	min-width: 143%!important;
 }
 button#personal-redirect {
 	    width: 100%;

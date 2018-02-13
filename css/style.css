@@ -104,6 +104,7 @@ button#personal-redirect {
   }
 }
 img.img-fluid.social {
+  background-color: #333;
     width: 61%;
 }
 .overflow-hidden { overflow: hidden; }
@@ -206,7 +207,7 @@ h3.logo-name {
 img.image-template1 {
     width: 100%;
     border-style: solid;
-    border-color: dimgrey;
+    border-color: red;
 }
 /*Wrapper*/
 .wrapper{
@@ -339,8 +340,8 @@ h4.title-package {
     margin: 0;
 }
 img.img-fluid.responsive {
-        margin-left: -97px;
-    min-width: 195% !important;
+        margin-left: -89px;
+    min-width: 168% !important;
     float: left;
 }
 
