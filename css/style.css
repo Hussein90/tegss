@@ -207,11 +207,7 @@ h3.logo-name {
 img.image-template1 {
     width: 100%;
     border-style: solid;
-<<<<<<< HEAD
     border-color: dimgrey;
-=======
-    border-color:dimgrey;
->>>>>>> 79703e3649b7f38aa55bdd3e32d1799c14b280d2
 }
 /*Wrapper*/
 .wrapper{
@@ -376,13 +372,6 @@ span.red-word{
     float: right;
     margin-right: 30px;
 }
-<<<<<<< HEAD
 i.fab.fa-facebook-f.fa-lg {
     color: #333333;
 }
-=======
-i.fab.fa-facebook.fa-lg {
-    color: blue;
-    background-color: white;
-}
->>>>>>> 79703e3649b7f38aa55bdd3e32d1799c14b280d2
